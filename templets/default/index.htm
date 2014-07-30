@@ -73,36 +73,38 @@
             <div class="6u">
                 <section>
                     <header>
-                        <h2>Integer gravida nibh quis urna</h2>
-                        <span class="byline">Augue praesent a lacus at urna congue rutrum</span>
+                        <h2>公司介绍</h2>
+                        <span class="byline">About Us</span>
                     </header>
-                    <p>This is <strong>Ex Machina</strong>, a responsive HTML5 site template freebie by <a href="http://templated.co">TEMPLATED</a>. Released for free under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so use it for whatever (personal or commercial) &ndash; just give us credit! Check out more of our stuff at <a href="http://templated.co">our site</a> or follow us on <a href="http://twitter.com/templatedco">Twitter</a>.</p>
-                    <p>Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget lorem ipsum dolor. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat.</p>
-                    <p>Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat. Vestibulum pellentesque, justo mollis pretium suscipit, justo nulla blandit libero, in blandit augue justo quis nisl. Fusce mattis viverra elit. Fusce quis tortor. Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget lorem ipsum dolor. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Curabitur sit amet nulla. Nam in massa. Sed vel tellus. Curabitur sem urna, consequat. Sed etiam vestibulum velit, euismod lacinia quam nisl id lorem. Quisque erat.</p>
-                    <a href="#" class="button">More Details</a>
+                    <p>北京聚和众智咨询有限公司（简称聚和猎头）是一家立足北京，辐射华北、华中、华东等，面向全国推荐中高端人才服务为主的专业咨询公司。</p>
+                     <p>聚和严格执行国际猎头行业标准流程运作方式及行业规则操作，深化创新理念，改进服务质量和服务方式，满足现代企业在国际化大市场、互联网转型背景快速发展的需要，提供专业、专注、卓越一流的需求服务。</p>
+                    <p>我们拥有强大的数据资源、丰富的市场信息和专业的专家、顾问团队，确保为客户提供精准、高效、专业的服务，赢得了诸多行业的客户信赖。目前主要服务在华的跨国企业、各类外资企业的驻华机构、独资及合资企业与优秀的本土民营企业。</p>
+                    <p>服务的行业有房地产、ICT、互联网、金融、医药、汽车等领域。在过去的发展历程中，我们的团队积极、快速而稳健的发展，为我们的客户在企业战略发展中博得了不可多得优秀人才，帮助企业创造更多商业价值、社会贡献。</p>
+
+                    <a href="#" class="button">联系我们</a>
                 </section>
             </div>
             <div class="3u">
                 <section class="sidebar">
                     <header>
-                        <h2>Feugiat Tempus</h2>
+                        <h2>企业文化</h2>
                     </header>
                     <ul class="style2">
                         <li>
                             <a href="#"><img src="{dede:global.cfg_templets_skin/}/images/pics07.jpg" alt=""></a>
-                            <p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+                            <p>我们的愿景：让客户拥有核心人才竞争力，使其发展壮大，获得持久成功</p>
                         </li>
                         <li>
                             <a href="#"><img src="{dede:global.cfg_templets_skin/}/images/pics08.jpg" alt=""></a>
-                            <p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+                            <p>我们的使命：为卓越企业尽揽优秀人才，让高端人才光芒耀眼</p>
                         </li>
                         <li>
                             <a href="#"><img src="{dede:global.cfg_templets_skin/}/images/pics09.jpg" alt=""></a>
-                            <p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+                            <p>我们的核心价值观：诚信务实、创新进取、专业卓越、成就客户</p>
                         </li>
                         <li>
                             <a href="#"><img src="{dede:global.cfg_templets_skin/}/images/pics10.jpg" alt=""></a>
-                            <p>Donec leo, vivamus fermentum augue praesent a lacus at urna rutrum.</p>
+                            <p>我们的企业精神：创新协作、乐于奉献、开拓进取、努力勤奋</p>
                         </li>
                     </ul>
                 </section>
@@ -110,26 +112,22 @@
             <div class="3u">
                 <section class="sidebar">
                     <header>
-                        <h2>Feugiat Tempus</h2>
+                        <h2>行业资讯</h2>
                     </header>
                     <ul class="style1">
-                        <li><a href="#">Maecenas luctus lectus at sapien</a></li>
-                        <li><a href="#">Etiam rhoncus volutpat erat</a></li>
-                        <li><a href="#">Donec dictum metus in sapien</a></li>
-                        <li><a href="#">Nulla luctus eleifend purus</a></li>
-                        <li><a href="#">Maecenas luctus lectus at sapien</a></li>
+                        {dede:arclist row='5' titlelen='24' orderby='pubdate' typeid='6'}
+                            <li><a href="[field:arcurl/]">[field:title/]</a></li>
+                        {/dede:arclist}
                     </ul>
                 </section>
                 <section class="sidebar">
                     <header>
-                        <h2>Nulla luctus eleifend</h2>
+                        <h2>职位介绍</h2>
                     </header>
                     <ul class="style1">
-                        <li><a href="#">Maecenas luctus lectus at sapien</a></li>
-                        <li><a href="#">Donec dictum metus in sapien</a></li>
-                        <li><a href="#">Integer gravida nibh quis urna</a></li>
-                        <li><a href="#">Etiam posuere augue sit amet nisl</a></li>
-                        <li><a href="#">Mauris vulputate dolor sit amet nibh</a></li>
+                        {dede:arclist row='5' titlelen='24' orderby='pubdate' typeid='2'}
+                        <li><a href="[field:arcurl/]">[field:title/]</a></li>
+                        {/dede:arclist}
                     </ul>
                 </section>
             </div>
@@ -140,39 +138,7 @@
 </div>
 <!-- /Main -->
 
-<!-- Featured -->
-<div id="featured">
-    <div class="container">
-        <div class="row">
-            <section class="4u">
-                <div class="box">
-                    <a href="#" class="image left"><img src="{dede:global.cfg_templets_skin/}/images/pics04.jpg" alt=""></a>
-                    <h3>Etiam posuere augue</h3>
-                    <p>Donec nonummy magna quis risus eleifend. </p>
-                    <a href="#" class="button">More</a>
-                </div>
-            </section>
-            <section class="4u">
-                <div class="box">
-                    <a href="#" class="image left"><img src="{dede:global.cfg_templets_skin/}/images/pics05.jpg" alt=""></a>
-                    <h3>Etiam posuere augue</h3>
-                    <p>Donec nonummy magna quis risus eleifend. </p>
-                    <a href="#" class="button">More</a>
-                </div>
-            </section>
-            <section class="4u">
-                <div class="box">
-                    <a href="#" class="image left"><img src="{dede:global.cfg_templets_skin/}/images/pics06.jpg" alt=""></a>
-                    <h3>Etiam posuere augue</h3>
-                    <p>Donec nonummy magna quis risus eleifend. </p>
-                    <a href="#" class="button">More</a>
-                </div>
-            </section>
-        </div>
-        <div class="divider"></div>
-    </div>
-</div>
-<!-- /Featured -->
+
 
 
 <!-- Footer -->

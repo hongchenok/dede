@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #202020 url(images/img01.jpg) repeat;
+		/*background: #202020 url(images/img01.jpg) repeat;*/
 	}
 
 	body,input,textarea,select
@@ -908,6 +908,8 @@
 		letter-spacing: 1px;
 		text-align: center;
 		color: rgba(255,255,255,.4);
+        height: 115px;
+        background: #202020 url(images/img01.jpg) repeat;
 	}
 	
 	#copyright .container
