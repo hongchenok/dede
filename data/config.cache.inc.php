@@ -2,9 +2,9 @@
 $cfg_disable_funs = 'phpinfo,eval,exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source,file_put_contents';
 $cfg_disable_tags = 'php';
 $cfg_basehost = 'http://localhost';
-$cfg_cmspath = '/dede';
+$cfg_cmspath = '/';
 $cfg_cookie_encode = 'Aif1GMcBYThsK1gh6skl8YTo9505RcV';
-$cfg_indexurl = '/dede';
+$cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';
 $cfg_webname = '我的网站';
