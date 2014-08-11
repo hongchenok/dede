@@ -48,7 +48,6 @@
 	#main
 	{
 		margin-top: 3em;
-		padding-top: 2em;
 		border-top: none;
 	}
 	
@@ -82,3 +81,17 @@
 		padding: 2em 0em;
 	}
 	
+    .list_head{
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+
+    .list_item{
+        margin-bottom: 10px;
+    }
+
+    .list_head .info{
+        font-size: 12px;
+        font-weight: normal;
+        padding-left: 5em;
+    }
